@@ -67,5 +67,11 @@ Because every component will already have
 ✅ Shared colors
 
 That means when we build the Hero, Services, or Contact sections, they will automatically follow the same design system.
+----------------------------------------------------------------------------------------------------------------------------
+Inside componenet folder:
+ui = reusable building blocks
+layout = website structure
+common = shared functionality
 
-Step 1 completed: created the final folder structure, and created a design system that will follow throughout the project.
+This is how many larger React codebases are organized.
+---------------------------------------------------------

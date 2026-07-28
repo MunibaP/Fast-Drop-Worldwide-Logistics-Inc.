@@ -1,0 +1,72 @@
+.fd-btn{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:.75rem;
+
+    padding:16px 34px;
+
+    border-radius:14px;
+
+    font-weight:700;
+
+    transition:all .35s ease;
+
+    cursor:pointer;
+
+    overflow:hidden;
+
+    position:relative;
+}
+
+.fd-btn.primary{
+
+    background:var(--color-secondary);
+
+    color:white;
+
+    box-shadow:var(--shadow-md);
+}
+
+.fd-btn.primary:hover{
+
+    transform:translateY(-3px);
+
+    background:var(--color-secondary-hover);
+}
+
+.fd-btn.outline{
+
+    background:white;
+
+    border:2px solid var(--color-primary);
+
+    color:var(--color-primary);
+}
+
+.fd-btn.outline:hover{
+
+    background:var(--color-primary);
+
+    color:white;
+}
+
+.fd-btn.lg{
+
+    padding:20px 40px;
+
+    font-size:1.1rem;
+}
+
+.fd-btn.md{
+
+    font-size:1rem;
+}
+
+.fd-btn.sm{
+
+    padding:12px 24px;
+
+    font-size:.9rem;
+}
