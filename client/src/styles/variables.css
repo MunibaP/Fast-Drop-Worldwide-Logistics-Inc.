@@ -1,0 +1,152 @@
+/* ==========================================
+   FASTDROP WORLDWIDE LOGISTICS
+   Design Tokens
+========================================== */
+
+:root {
+
+  /* ==========================================
+      COLORS
+  ========================================== */
+
+  --color-primary: #0A2342;
+  --color-primary-light: #1D4E89;
+
+  --color-secondary: #D72638;
+  --color-secondary-hover: #B81F2E;
+
+  --color-accent: #4DA3FF;
+
+  --color-background: #F4F7FB;
+  --color-surface: #FFFFFF;
+
+  --color-text: #102A43;
+  --color-text-light: #627D98;
+
+  --color-border: #D9E2EC;
+
+  --color-success: #2EAE6B;
+  --color-warning: #F4B400;
+  --color-error: #D93025;
+
+
+
+  /* ==========================================
+      GRADIENTS
+  ========================================== */
+
+  --gradient-primary:
+      linear-gradient(
+      135deg,
+      #0A2342 0%,
+      #1D4E89 100%
+      );
+
+  --gradient-hero:
+      linear-gradient(
+      180deg,
+      #F7FBFF 0%,
+      #EAF2FA 100%
+      );
+
+
+
+  /* ==========================================
+      FONT FAMILY
+  ========================================== */
+
+  --font-heading:
+      "Manrope",
+      sans-serif;
+
+  --font-body:
+      "Inter",
+      sans-serif;
+
+
+
+  /* ==========================================
+      FONT WEIGHTS
+  ========================================== */
+
+  --fw-light:300;
+  --fw-regular:400;
+  --fw-medium:500;
+  --fw-semibold:600;
+  --fw-bold:700;
+  --fw-extra-bold:800;
+
+
+
+  /* ==========================================
+      BORDER RADIUS
+  ========================================== */
+
+  --radius-sm:8px;
+  --radius-md:16px;
+  --radius-lg:24px;
+  --radius-xl:36px;
+
+
+
+  /* ==========================================
+      SHADOWS
+  ========================================== */
+
+  --shadow-sm:
+      0 4px 12px rgba(0,0,0,.06);
+
+  --shadow-md:
+      0 10px 30px rgba(0,0,0,.08);
+
+  --shadow-lg:
+      0 18px 40px rgba(0,0,0,.12);
+
+
+
+  /* ==========================================
+      SPACING
+  ========================================== */
+
+  --space-xs:.5rem;
+  --space-sm:1rem;
+  --space-md:2rem;
+  --space-lg:4rem;
+  --space-xl:6rem;
+  --space-2xl:8rem;
+
+
+
+  /* ==========================================
+      TRANSITIONS
+  ========================================== */
+
+  --transition-fast:.25s ease;
+
+  --transition-normal:.4s ease;
+
+  --transition-slow:.7s ease;
+
+
+
+  /* ==========================================
+      CONTAINER
+  ========================================== */
+
+  --container-width:1400px;
+
+  --section-padding:120px;
+
+
+
+  /* ==========================================
+      Z INDEX
+  ========================================== */
+
+  --z-navbar:1000;
+
+  --z-overlay:2000;
+
+  --z-modal:3000;
+
+}
