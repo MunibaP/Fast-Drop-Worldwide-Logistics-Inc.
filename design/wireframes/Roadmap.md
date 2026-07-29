@@ -8,6 +8,7 @@ Install packages
 Clean Vite project
 Global CSS
 Design system
+**DONE**
 -----------------------------------------------
 Milestone 2 — Navigation
 Responsive navbar
@@ -60,3 +61,4 @@ Nginx
 PM2
 SSL
 Production testing
+
